@@ -39,8 +39,7 @@ namespace Geekbrains
 			_weapon = weapon as Weapon;
             //если не получилось назначить(?), то ничего не делаем
 			if (_weapon == null) return;
-            //запускаем ?
-            //:: BaseObjectScene.IsVisible
+            //запускаем
             _weapon.IsVisible = true;
             //запускаем текст для вывода через поле базового класса
 			UiInterface.WeaponUiText.SetActive(true);
